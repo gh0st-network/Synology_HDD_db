@@ -12,7 +12,7 @@
 
 scriptver="v1.0.0"
 script=Synology_HDD_shutdown
-#repo="007revad/Synology_HDD_db"
+#repo="gh0st-network/Synology_HDD_db"
 scriptname=syno_hdd_shutdown
 
 ding(){ 
