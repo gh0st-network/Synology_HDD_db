@@ -4,6 +4,7 @@
 
 
 #### Contents
+- [Synology Package Source](#synology-package-source)
 - [Speed testing](#speed-testing)
 - [Plex](#plex)
 - [Asustor scripts and packages](#asustor)
@@ -17,10 +18,15 @@
 
 ***
 
+### Synology Package Source
+
+- **<a href="https://github.com/007revad/Synology_package_source">Synology Package Source</a>**
+  - Synology Package Source adds DSM packages that are available from GitHub to Package Center so users can easily install packages from various GitHub developers and Package Center can update the packages when newer versions are released.
+
 ### Speed Testing
 
 - **<a href="https://github.com/007revad/Synology_Ookla_Speedtest">Synology Ookla Speedtest</a>**
-  - Synology DSM 7 package to install Ookla Speedtest and run it in a GUI to test your internet speed.
+  - Synology Package Source to add to Package Center so you can install popular packages from GitHub developers.
 
 - **<a href="https://github.com/007revad/Synology_Open_Speedtest">Synology Open Speedtest</a>**
   - Synology DSM 7 package to install OpenSpeedtest and run it in a GUI to test your LAN speed.
@@ -54,6 +60,7 @@
 
 - **<a href="https://github.com/007revad/Transcode_for_x25">Transcode for x25</a>**
   - Installs the modules needed for Plex or Jellyfin hardware transcoding on Synology DS425+ and DS225+.
+  - Available as a package and a script.
 
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; [Back to Contents](#contents)
 
@@ -196,6 +203,7 @@
 
 - **<a href="https://github.com/007revad/Transcode_for_x25">Transcode for x25</a>**
   - Installs the modules needed for Plex or Jellyfin hardware transcoding on Synology DS425+ and DS225+.
+  - Available as a package and a script.
 
 - **<a href="https://github.com/007revad/Synology_HDD_db/blob/main/2025_plus_models.md">2025 series or later Plus models</a>**
   - Unverified 3rd party drive limitations and unofficial solutions.
