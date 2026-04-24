@@ -1,5 +1,7 @@
 # Synology HDD db
 
+Repo forked from https://github.com/007revad/Synology_HDD_db. All credits for this script goes to Dave Russell.
+
 <a href="https://github.com/007revad/Synology_HDD_db/releases"><img src="https://img.shields.io/github/release/007revad/Synology_HDD_db.svg"></a>
 ![Badge](https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2F007revad%2FSynology_HDD_db&label=Visitors&icon=github&color=%23198754&message=&style=flat&tz=Australia%2FSydney)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/paypalme/007revad)
@@ -17,7 +19,7 @@ The script works in DSM 7, including DSM 7.1, 7.2 and 7.3, and DSM 6.
 
 It also has a restore option to undo all the changes made by the script.
 
-Also works for 2025 series or later Plus models. See [2025_plus_models.md](https://github.com/007revad/Synology_HDD_db/blob/main/2025_plus_models.md)
+Also works for 2025 series or later Plus models. See [2025_plus_models.md](https://github.com/gh0st-network/Synology_HDD_db/blob/main/2025_plus_models.md)
 
 #### What the script does:
 
@@ -55,7 +57,7 @@ Also works for 2025 series or later Plus models. See [2025_plus_models.md](https
 
 ### Download the script
 
-1. Download the latest version _Source code (zip)_ from https://github.com/007revad/Synology_HDD_db/releases
+1. Download the latest version _Source code (zip)_ from https://github.com/gh0st-network/Synology_HDD_db/releases
 2. Save the download zip file to a folder on the Synology.
     - Do ***NOT*** save the script to a M.2 volume. After a DSM or Storage Manager update the M.2 volume won't be available until after the script has run.
 3. Unzip the zip file.
@@ -63,7 +65,7 @@ Also works for 2025 series or later Plus models. See [2025_plus_models.md](https
 Or via SSH as your regular user:
 ```
 cd $HOME
-wget https://github.com/007revad/Synology_HDD_db/archive/refs/heads/main.zip -O syno_hdd_db.zip
+wget https://github.com/gh0st-network/Synology_HDD_db/archive/refs/heads/main.zip -O syno_hdd_db.zip
 7z x syno_hdd_db.zip
 cd Synology_HDD_db-main && ls -ali
 ```
@@ -162,9 +164,9 @@ sudo -s /path-to-script/syno_hdd_db.sh -nr --showedits
 
 | Issue | Cause | Solution |
 |-------|-------|----------|
-| /usr/bin/env: ‘bash\r’: No such file or directory | File has Mac line endings! | [Download latest zip file](https://github.com/007revad/Synology_HDD_db/releases) |
-| Cursor sits there doing nothing | File has Windows line endings! | [Download latest zip file](https://github.com/007revad/Synology_HDD_db/releases) |
-| syntax error near unexpected token | You downloaded the webpage! | [Download latest zip file](https://github.com/007revad/Synology_HDD_db/releases) |
+| /usr/bin/env: ‘bash\r’: No such file or directory | File has Mac line endings! | [Download latest zip file](https://github.com/gh0st-network/Synology_HDD_db/releases) |
+| Cursor sits there doing nothing | File has Windows line endings! | [Download latest zip file](https://github.com/gh0st-network/Synology_HDD_db/releases) |
+| syntax error near unexpected token | You downloaded the webpage! | [Download latest zip file](https://github.com/gh0st-network/Synology_HDD_db/releases) |
 
 If you get a "No such file or directory" error check the following:
 
