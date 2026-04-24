@@ -31,7 +31,7 @@
 
 scriptver="v3.6.125"
 script=Synology_HDD_db
-repo="007revad/Synology_HDD_db"
+repo="gh0st-network/Synology_HDD_db"
 scriptname=syno_hdd_db
 
 # Check BASH variable is bash
